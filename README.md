@@ -26,6 +26,11 @@ cd aithereum
 
 # Install dependencies
 npm install
+or
+npm install cfonts
+
+# Run
+npm start
 
 # Configure files
 # 1. Create user.txt with user IDs
