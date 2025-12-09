@@ -1,0 +1,62 @@
+{
+  "name": "aithereum",
+  "version": "1.0.0",
+  "description": "AITHEREUM - Advanced AI-Powered Blockchain Automation Platform",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "setup": "node setup.js",
+    "clean": "rm -rf logs/* tmp/*",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "aithereum",
+    "ai-blockchain",
+    "web3",
+    "automation",
+    "crypto",
+    "defi",
+    "smart-contracts"
+  ],
+  "author": "CHE DOMOY",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/aithereum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/aithereum/issues"
+  },
+  "homepage": "https://github.com/username/aithereum#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "boxen": "^7.0.0",
+    "cfonts": "^3.3.1",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.0",
+    "fs-extra": "^11.1.1",
+    "gradient-string": "^2.0.2",
+    "https-proxy-agent": "^7.0.2",
+    "ora": "^7.0.1",
+    "progress": "^2.0.3",
+    "socks-proxy-agent": "^8.0.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "config/",
+    "utils/",
+    "README.md",
+    "LICENSE"
+  ]
+}
