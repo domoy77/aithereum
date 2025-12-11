@@ -523,7 +523,6 @@ function displaySplashScreen() {
   const creditsContent = 
     `${theme.secondary('👨‍💻 Developer : ')}${theme.primary('CHE DOMOY')}\n` +
     `${theme.secondary('🐦 Twitter (X) : ')}${theme.info('@Domoy77')}\n` +
-    `${theme.secondary('📧 Telegram    : ')}${theme.accent('@CheDomoy')}\n` +
     `${theme.secondary('🚀 Version     : ')}${theme.success('1.0.0 AITHEREUM')}\n` +
     `${theme.secondary('📅 Released    : ')}${theme.muted('December 2025')}`;
   
